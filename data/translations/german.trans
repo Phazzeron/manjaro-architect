@@ -15,12 +15,12 @@ _Done="Fertig"
 _PlsWaitBody="Bitte warten..."
 _PassReEntBody="Passwort erneut eingeben."
 _ErrTitle="Fehler"
-_PassErrBody="Die eingegebenen Passwörter sind nicht gleich. Bitte erneut versuchen."
+_PassErrBody="Die eingegebenen Passwörter stimmen nicht überein."
 
 # Basics
 _SelLang="Sprachauswahl"
 _Lang="Sprache"
-_Keep="Behalten"
+_Keep="Beibehalten"
 _Change="Ändern"
 _NoCon="Keine Internetverbindung."
 _EstCon="Verbindung herstellen?"
@@ -31,7 +31,7 @@ _ChMenuBody="Das Standardmenü wird Sie durch die Installation einer durch Manja
 
 # Security and Tweaks
 _SecMenuTitle="System- und Sicherheitseinstellungen"
-_SecJournTitle="journald Logging berichtigen"
+_SecJournTitle="Journald Logging berichtigen"
 _SecCoreTitle="Coredump Logging deaktivieren"
 _SecKernTitle="Zugriff auf Kernel-Logs einschränken"
 _SecKernBody="Das Protokoll des Linux-Kernels könnte Informationen beinhalten, die zur Ausnutzung von Schwachstellen beitragen können und sensible Speicherbereiche aufzeigen.\n\nWenn in systemd-journald das protokollieren nicht abgeschaltet wurde, ist es möglich eine Datei in /etc/sysctl.d/ zu erstellen, welche Zugriff auf das Protokoll des Linux-Kernels nur mit Root-Rechten (z.B. mit sudo) erlaubt."
